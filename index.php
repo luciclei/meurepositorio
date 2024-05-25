@@ -230,6 +230,31 @@ echo"<br>";
 echo"<br>";
 ?>
 
+<?PHP
+$octeto = 172;
+$mascara = 248;
+$valor = $octeto & $mascara;
+echo "<br> Aplicando a operaçao AND entre a máscara e octeto com $valor";
 
+?>
 
+<?PHP
+echo"<br>";
+$valor = 10;
+if($valor == 15){
+   echo "<br> Valor é 15";
+}
+elseif ($valor >= 10){
+	echo "Valor é  maior ou igual a 10";
+}
+else {
+	echo "valor é menor que 10";
+}
+?>
 
+<?PHP
+echo "<br>";
+$v = "Fabio";
+$nome = $v . " dos Reis";
+echo $nome;
+?>
