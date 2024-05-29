@@ -258,3 +258,59 @@ $v = "Fabio";
 $nome = $v . " dos Reis";
 echo $nome;
 ?>
+<?PHP
+$a = 10;
+$b = 9;
+$c = 5;
+$resultado = ($a+$b+$c)/3;
+echo "<br>A média é : $resultado";
+
+$mensagem ='';
+if ($resultado >= 7){
+    $mensagem = ' O Aluno foi Aprovado';
+}
+else {
+    $mensagem = ' O Aluno foi Reprovado';
+    }
+echo "<br>";
+echo $resultado . $mensagem; 
+echo"<br>";   
+echo"<br>";   
+?>
+
+
+
+<?PHP
+$a = 8;
+$b = 5;
+$c = 5;
+$d = 7;
+$resultado = ($a+$b+$c+$d)/4;
+
+  "$resultado";
+
+  $mensagem ='';
+if($resultado >= 7 && $resultado=!10){
+	
+	 $mensagem = "O Aluno foi Aprovado";
+}
+
+
+elseif ($resultado == 0){
+	 $mensagem = "Estude mais, voce nao acertou nada."; 
+}
+elseif ($resultado ==10){
+	 $mensagem ="Parabens! Aprovado com nota maxima";
+}
+
+else {
+	$mensagem = "o aluno foi reprovado";
+}
+
+echo $resultado .$mensagem;
+
+
+
+	
+
+?>
